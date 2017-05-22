@@ -1,4 +1,4 @@
-#Telepítéskor elvégezendő feladatok
+# Telepítéskor elvégezendő feladatok
 
 * Igyekezzünk letölteni a legfrissebb WordPress verziót a hivatalos [weboldalról](https://wordpress.org/download/).
 * Minden esetben változtassuk meg az adatbázis tábla előtagjának nevét az alapértelmezett `wp_` előtag helyett.
@@ -18,7 +18,7 @@
 
 &nbsp;
 
-#`wp-config.php` beállítások [opcionális]
+# `wp-config.php` beállítások [opcionális]
 >Bővebb információk az alábbi [linken](https://codex.wordpress.org/Editing_wp-config.php)
 
 &nbsp;
@@ -91,7 +91,7 @@ define( 'WP_AUTO_UPDATE_CORE', false );
 
 &nbsp;
 
-#Élesítéskor elvégzendő feladatok
+# Élesítéskor elvégzendő feladatok
 
 * Tegyük láthatóvá az oldalt a keresők számára. (Beállítások > Olvasás)
 * Töltsük fel a `robots.txt`-t
