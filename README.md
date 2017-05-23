@@ -65,6 +65,8 @@ define( 'AUTOSAVE_INTERVAL', '120' );
 
 **A WordPress admin sablon és plugin szerkesztőjének kikapcsolása**
 
+Ezt a funckiót letiltva az adminisztrátorok nem tudják a sablon file-okat és bővítményeket szerkeszteni a vezérlőpulton keresztül, így egy biztonsági rést is elzárunk.
+
 ```php
 define( 'DISALLOW_FILE_EDIT', true );
 ```
@@ -72,6 +74,8 @@ define( 'DISALLOW_FILE_EDIT', true );
 &nbsp;
 
 **Sablonok, bővítmények telepítésének és frissítésének tiltása**
+
+Letiltja a felhasználók elől a bővítmények hozzáadásának és frissítésének lehetőségét.
 
 ```php
 define( 'DISALLOW_FILE_MODS', true );
@@ -81,7 +85,7 @@ define( 'DISALLOW_FILE_MODS', true );
 
 **Az automatikus frissítés funkció kikapcsolása**
 
-A rendszerünk nem fog automatikusan frissülni, ugyanakkor továbbra is megkapjuk az értesítési értesítéseket.
+A rendszerünk nem fog automatikusan frissülni, ugyanakkor továbbra is megkapjuk az frissítési értesítéseket.
 
 ```php
 define( 'WP_AUTO_UPDATE_CORE', false );
