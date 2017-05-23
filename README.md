@@ -4,7 +4,7 @@
 * Minden esetben változtassuk meg az adatbázis tábla előtagjának nevét az alapértelmezett `wp_` előtag helyett.
 * (Térjünk el a megszokott 'admin' felhasználó használatától.)
 * A telepítés végeztével töröljük a wp-config-sample file-t.
-* 
+
 	```
 	wp-config-sample.php
 	```
@@ -117,5 +117,5 @@ define( 'WP_AUTO_UPDATE_CORE', false );
 	
 * Ellenőrizzük, hogy az oldal megfelelően megosztható-e, minden helyesen jelenik-e meg a megosztáskor. [opengraphcheck.com](http://opengraphcheck.com)
 * Ellenőrizzük le, hogy a Süti értesítő megfelelően megjelenik az oldalon.
-* Favikonok feltöltése
-* A [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/) beállítása 
+* Favikonok kezelése. [RealFaviconGenerator](https://srd.wordpress.org/plugins/favicon-by-realfavicongenerator/)
+* A [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/) beállítása ([segédlet](https://kb.yoast.com/kb/configuration-guide-for-yoast-seo/))
