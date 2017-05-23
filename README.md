@@ -25,7 +25,7 @@
 
 **Keys and Salts**
 
-Minden esetben genedárjunk új Salt kulcsokat. Az alábbi [linkre](https://api.wordpress.org/secret-key/1.1/salt/) kattintva automatikusan megkapjuk az új kulcsokat.
+Minden esetben generáljunk új Salt kulcsokat. Az alábbi [linkre](https://api.wordpress.org/secret-key/1.1/salt/) kattintva automatikusan megkapjuk az új kulcsokat.
 
 &nbsp;
 
@@ -43,7 +43,7 @@ Ebben az esetben minden bejegyzésből maximálisan a két legutolsó változat 
 ```php
 define( 'EMPTY_TRASH_DAYS', '31' );
 ```
-Az alapértelmezett beállítás szerint 30 nap után törlődnek a lomtárba helyezett bejegyzések, az `EMPTY_TRASH_DAYS` után megadott számértékkel megváltoztathajuk ezt.
+Az alapértelmezett beállítás szerint 30 nap után törlődnek a lomtárba helyezett bejegyzések, az `EMPTY_TRASH_DAYS` után megadott számértékkel megváltoztathatjuk ezt.
 
 A lomtár funkciót elérhetővé tudjuk tenni a **Médiatár** számára is:
 
