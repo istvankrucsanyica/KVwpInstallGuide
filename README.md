@@ -2,6 +2,7 @@
 
 * Igyekezzünk letölteni a legfrissebb WordPress verziót a hivatalos [weboldalról](https://wordpress.org/download/).
 * Minden esetben változtassuk meg az adatbázis tábla előtagjának nevét az alapértelmezett `wp_` előtag helyett.
+* (Térjünk el a megszokott 'admin' felhasználó használatától.)
 * A telepítés végeztével töröljük a wp-config-sample file-t.
 * 
 	```
@@ -97,6 +98,8 @@ define( 'WP_AUTO_UPDATE_CORE', false );
 
 # Élesítéskor elvégzendő feladatok
 
+* Ellenőrizzük le, hogy nem maradtak-e teszt tartalmak (pl: hello world bejegyzés, "ez egy minta oldal" vagy a wordpress által generált hozzászólás, esetleg Lorem ipsum-ok)
+* Optimalizáljuk a képeket az [EWWW Image Optimizer](https://wordpress.org/plugins/ewww-image-optimizer/) segítségével
 * Tegyük láthatóvá az oldalt a keresők számára. (Beállítások > Olvasás)
 * Töltsük fel a `robots.txt`-t
 
@@ -115,3 +118,4 @@ define( 'WP_AUTO_UPDATE_CORE', false );
 * Ellenőrizzük, hogy az oldal megfelelően megosztható-e, minden helyesen jelenik-e meg a megosztáskor. [opengraphcheck.com](http://opengraphcheck.com)
 * Ellenőrizzük le, hogy a Süti értesítő megfelelően megjelenik az oldalon.
 * Favikonok feltöltése
+* A [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/) beállítása 
